@@ -1,41 +1,47 @@
 <!DOCTYPE html>
-<html>
-  <head>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kiki Y Tata</title>
-  </head>
-  <body>
-    <header>
-    <h1>Kiki Y Tata</h1>
-      <nav>
-        <a href="about.html">About</a>
-      </nav>
-    </header>
 
-    <hr>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="icons/favicon.ico">
+</head>
+<body>
 
-    <main>
-      <section id="about">
-        <h2>Cual es ese Web?</h2>
-        <p>Es una Web</p>
-      </section>
-      <section id="contact">
-        <h2>Contact Us</h2>
-        <form action="#" method="post">
-          <label for="name">Name:</label><br>
-          <input type="text" id="name" name="name" required><br><br>
+<header>
+    <h1>🌟 Kiki Y Tata 🌟</h1>
+    <p>Welcome to the official Kiki Y Tata website!</p>
+</header>
 
-          <label for="message">Message:</label><br>
-          <textarea id="message" name="message" required></textarea><br>
+<nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="games.html">Games</a>
+    <a href="contact.html">Contact</a>
+</nav>
 
-          <button type="submit">Submit Form</button>
-        </form>
-      </section>
-    </main>
+<main>
+    <section class="hero">
+        <h2>Hello!</h2>
+        <p>
+            Explore the world of Kiki Y Tata with fun stories,
+            games, pictures, and adventures.
+        </p>
 
-    <hr>
+        <div class="buttons">
+            <button id="sayHiBtn">Say Hi</button>
+            <button onclick="location.href='games.html'">Play Games</button>
+        </div>
+    </section>
+</main>
 
-    <footer>
-      <p>&copy; 2026 Kiki Y Tata, All rights reserved.</p>
-    </footer>
-  </body>
+<footer>
+    © 2026 Kiki Y Tata. All rights reserved.
+</footer>
+
+<script src="js/script.js"></script>
+
+</body>
 </html>
